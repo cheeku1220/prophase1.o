@@ -1,0 +1,107 @@
+.one{
+    color:blue;
+}
+.two{
+    color:cadetblue;
+}
+.three{
+    color:lightcoral;
+}
+/* .logo{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* height: 120px; */
+    /* width: 120px; */
+/* } */
+.cap{
+    /* max-width: 500px; */
+    background-color:aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    font-size:20px;
+    /* text-align: center; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height:70px;
+}
+/* .cap:nth-child(3){ */
+    /* font-size: 5px; */
+    /* padding:5px; */
+/* } */
+#encap{
+    margin-left: 1130px;
+}
+button{
+    padding: 5px;
+    margin:2px;
+}
+img{
+    /* border:0 solid black; */
+    border-radius: 50%;
+    width:70px;
+    height:70px;
+    transition:all 1s;
+}
+section{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://impactinfocus.com/wp-content/uploads/2021/09/5.png");
+    /* align-items: center; */
+    background-size:100% 100%;
+    /* background-repeat:no-repeat; */
+}
+.some{
+    /* text-align: center; */
+    /* background-color:black; */
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    margin:170px;
+    /* margin-left: 250px; */
+    /* transition: 3s; */
+}
+img{
+    transition: all 1s;
+}
+img[onclick="roll(id)"]{
+    cursor:pointer;
+    transform:scale(1.5);
+}
+img:hover{
+    /* transform: rotate(45deg); */
+    position:relative;
+    cursor: pointer;
+    z-index:1;
+    transform: rotate(45deg);
+}
+ul{
+    display: flex;
+    padding-left:0;
+}
+
+li{
+    display: inline;
+    padding: 2px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    background-color:gainsboro;
+}
+/* footer ul li{ */
+    /* transition:0.5s; */
+/* } */
+footer ul li:hover{
+    cursor: pointer;
+    color:blue;
+    text-decoration: underline;
+    /* border:2px solid black; */
+    /* border-radius: 50%; */
+
+}
